@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body{background-color: #000000
+}
+
+.class1{position:relative;}
+.class1 p{
+    font-family: serif; 
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: -70px;
+    font-size: 70px;}
+
+    .main-nav{
+        display: flex;
+        font-size: 1.5rem;
+        font-family: serif;
+        text-transform: capitalize;
+        margin-top: 0px;
+        list-style: none;
+        margin-left: -45px;
+    }
+    .main-nav li{
+        margin-left: 30px;
+        z-index: 999;
+    }
+    .main-nav a {
+        color: #882255;  
+    }
+    .main-nav a:hover{
+        color: #ffffff
+    }
+    .page-header {
+        display:flex;
+    }
+
+    h1{font-family: serif; color: #ffffff;
+    text-align: center;
+font-family: serif;
+font-size: 70px;
+top: 30px;}
+
+.class2{
+    position:relative;
+    left: 300px;
+    top:20px;
+}
+.class2 p{
+    font-family: serif; 
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: -65px;
+    font-size: 50px;}
+
+    .class3{
+        position:relative;
+        left: 300px;
+        top:270px;
+    }
+    .class3 p{
+        font-family: serif; 
+        color: #ffffff;
+        position: absolute;
+        left: 20px;
+        top: -65px;
+        font-size: 50px;}
+        .class4{
+            position:relative;
+            left: 300px;
+            top:490px;
+        }
+        .class4 p{
+            font-family: serif; 
+            color: #ffffff;
+            position: absolute;
+            left: 20px;
+            top: -65px;
+            font-size: 50px;}
+            .class5{
+                position:relative;
+                left: 300px;
+                top:610px;
+            }
+            .class5 p{
+                font-family: serif; 
+                color: #ffffff;
+                position: absolute;
+                left: 20px;
+                top: -65px;
+                font-size: 50px;}
+
+m1{
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+    left:350px;
+    top:470px;}
+    m2{
+        position: absolute;
+        color: #ffffff;
+        font-size: 25px;
+        left:350px;
+        top:780px;}
+        m3{
+            position: absolute;
+            color: #ffffff;
+            font-size: 25px;
+            left:350px;
+            top:1050px;}
+            m4{
+                position: absolute;
+                color: #ffffff;
+                font-size: 25px;
+                left:350px;
+                top:1230px;}
+
+h2{
+    position: relative;
+    font-family: serif; color: #ffffff;
+   text-align: center;
+   font-family: serif;
+   font-size: 70px;
+   top: 800px;}
+
+   m5{ 
+   position: absolute;  
+    color: #ffffff;
+    font-size: 25px;
+    left:500px;
+    top:1630px;
+text-align: center;}
+
+    
+    .class11{ position: absolute;
+        top:2200px;}
