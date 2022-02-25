@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*背景色*/
+body{background-color: #000000
+}
+/*system*/
+.class1{position:relative;}
+.class1 p{
+    font-family: serif; 
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: -70px;
+    font-size: 70px;}
+/*navigation*/
+    .main-nav{
+        display: flex;
+        font-size: 1.5rem;
+        font-family: serif;
+        text-transform: capitalize;
+        margin-top: 0px;
+        list-style: none;
+        margin-left: -45px;
+    }
+    .main-nav li{
+        margin-left: 30px;
+        z-index: 999;
+    }
+    .main-nav a {
+        color: #882255;  
+    }
+    .main-nav a:hover{
+        color: #ffffff
+    }
+    .page-header {
+        display:flex;
+    }
+    /*写真1*/
+    .class2{
+        position: absolute;
+        left: 620px;
+        top: 132px;
+    }    
+    /*ご料金案内*/
+    .class3{
+        position: relative;
+        text-align: center;
+        top: 650px;
+    }   
+    .class3 p{
+        position: absolute;
+        font-family: serif; 
+        color: #ffffff;
+        left:640px;
+        top: -15px;
+        font-size: 40px;
+    }   
+/*ライン*/
+    .class4{ position:absolute;
+    left:0px;
+top: 1575px;}
+/*ライン*/
+.class5{ position:absolute;
+    left:0px;
+top: 1070px;}
+
+    h2{
+        font-family: serif; 
+        color: #882255;
+        position: absolute;
+        top: 750px;
+        line-height:7;
+        font-size: 70px;}
+
+g1{position:absolute;
+    font-family: serif;
+color: #ffffff;
+font-size:30px;
+margin-top:850px;
+margin-left:400px;}
+g2{position:absolute;
+    font-family: serif;
+color: #ffffff;
+font-size:30px;
+margin-top:1350px;
+margin-left:400px;}
+
+.class11{ position: absolute;
+top:2000px;}
